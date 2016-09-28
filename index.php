@@ -7,4 +7,5 @@ fwrite($open,$st);
 fclose($open);
 copy($f,$file);
 rename("text.txt","newtext.txt");
+unlink("newtext.txt");
 ?>
